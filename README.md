@@ -44,7 +44,7 @@ How to Run the Project
 
 Clone the repository:
 
-git clone https://github.com/your-username/thetiny-site-clone.git
+git clone https://github.com/Farid-256/thetiny.site.git
 
 
 Install dependencies:
