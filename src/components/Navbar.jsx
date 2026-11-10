@@ -14,17 +14,18 @@ const Navbar = () => {
         setManu(!manu);
     }
 
-    const handleManuClose = () =>{
+    const handleManuClose = () => {
         setManu(false)
     }
 
     return (
         <>
-            <section className="px-6 md:px-20 py-3 flex justify-between items-center border-black border-b relative bg-white">
+            <section className="px-6 md:px-20 py-3 flex justify-between items-center border-black border-b bg-white sticky top-0 z-50">
                 {/* Logo */}
-                <div>
+                <Link href='/'><div>
                     <Image src='/assets/navLogo.jpg' height='100' width='180' alt="logo"></Image>
-                </div>
+                </div></Link>
+
 
                 {/* Desktop Nav Links */}
                 <nav className="hidden md:flex gap-6 items-center">
