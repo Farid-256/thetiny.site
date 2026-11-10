@@ -8,7 +8,7 @@ const Pricing = () => {
         <section className='px-6 sm:px-10 md:px-20 py-16 bg-white'>
 
             {/* Section Header */}
-            <div className='flex flex-col justify-center items-center gap-3 text-center mb-14'>
+            <div className='flex flex-col justify-center items-center gap-4 text-center mb-14'>
                 <h3 className='text-[#5b21b6] font-bold tracking-widest text-sm'>PRICING</h3>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-black text-gray-900'>Simple, transparent pricing.</h1>
                 <p className='text-gray-500 text-base sm:text-xl'>No hidden fees. Start free, scale when you are ready.</p>
