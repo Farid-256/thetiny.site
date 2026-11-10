@@ -2,6 +2,7 @@ import Bannar from "@/components/Bannar";
 import CounterSection from "@/components/CounterSection";
 import Links from "@/components/Links";
 import Premium from "@/components/Premium";
+import Pricing from "@/components/Pricing";
 
 
 
@@ -15,6 +16,8 @@ export default function Home() {
       <Links></Links>
 
       <Premium></Premium>
+
+      <Pricing></Pricing>
     </div>
   )
 }
