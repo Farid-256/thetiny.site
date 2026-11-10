@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
-// import navlogo from '/public/assets/navLogo'
 
 const Navbar = () => {
     const pathName = usePathname();
@@ -24,7 +23,7 @@ const Navbar = () => {
             <section className="px-6 md:px-20 py-3 flex justify-between items-center border-black border-b relative bg-white">
                 {/* Logo */}
                 <div>
-                    <Image src='/assets/navLogo.png' height='100' width='180' alt="logo"></Image>
+                    <Image src='/assets/navLogo.jpg' height='100' width='180' alt="logo"></Image>
                 </div>
 
                 {/* Desktop Nav Links */}
@@ -45,10 +44,10 @@ const Navbar = () => {
 
                 {/* Desktop Buttons */}
                 <div className="hidden md:flex gap-3 items-center">
-                    <Link href={'/auth/login'} className="bg-white px-5 py-2 font-bold rounded-xl border border-gray-300 text-gray-700 hover:bg-gray-50">
+                    <Link href='/auth/login' className="bg-white px-5 py-2 font-bold rounded-xl border border-gray-300 text-gray-700 hover:bg-gray-50">
                         Log In
                     </Link>
-                    <Link href={'/auth/registation'} className="bg-[#5b21b6] px-5 py-2 text-white font-bold rounded-xl hover:bg-[#4c1d95]">
+                    <Link href='/auth/register' className="bg-[#5b21b6] px-5 py-2 text-white font-bold rounded-xl hover:bg-[#4c1d95]">
                         Get Started Free
                     </Link>
                 </div>
