@@ -5,7 +5,7 @@ import { TiTickOutline } from 'react-icons/ti';
 
 const Pricing = () => {
     return (
-        <section className='px-6 sm:px-10 md:px-20 py-16 bg-gray-50/50'>
+        <section className='px-6 sm:px-10 md:px-20 py-16 bg-white'>
 
             {/* Section Header */}
             <div className='flex flex-col justify-center items-center gap-3 text-center mb-14'>
