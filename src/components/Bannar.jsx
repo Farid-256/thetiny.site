@@ -31,7 +31,8 @@ const Bannar = () => {
             </div>
 
             {/* Banner box */}
-            <div className="bg-white w-full max-w-xl flex flex-col items-center justify-center rounded-2xl shadow-xl border border-gray-100 p-6 sm:p-10 my-4">
+            <div className="bg-white w-full max-w-3xl flex flex-col items-center justify-center rounded-2xl shadow-xl 
+            border border-gray-100 p-6 sm:p-10 my-4">
 
                 {/* Lock Icon Box */}
                 <div className="text-center mb-4">

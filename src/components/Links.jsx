@@ -84,7 +84,7 @@ const Links = () => {
 
     return (
         <section className="py-16 px-4 sm:px-6 bg-white relative">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
 
                 {/* Section Header */}
                 <div className="flex flex-col justify-center items-center gap-2 mb-10 text-center">
@@ -97,7 +97,7 @@ const Links = () => {
                     {popularLinks.map((item) => (
                         <div
                             key={item.id}
-                            className="bg-white border border-gray-200/80 hover:border-purple-200 rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
+                            className="bg-gray-50 border border-gray-200/80 hover:border-purple-200 rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4"
                         >
                             {/* URL Text Info */}
                             <div className="space-y-1 overflow-hidden">
