@@ -86,10 +86,10 @@ const Navbar = () => {
 
                         {/* Mobile Buttons */}
                         <div className="flex flex-col gap-3 pt-2">
-                            <Link href={'/auth/login'} onClick={() => setManu(false)} className="bg-white text-center py-2.5 font-bold rounded-xl border border-gray-300 text-gray-700">
+                            <Link href='/auth/login' onClick={() => setManu(false)} className="bg-white text-center py-2.5 font-bold rounded-xl border border-gray-300 text-gray-700">
                                 Log In
                             </Link>
-                            <Link href={'/auth/registation'} onClick={() => setManu(false)} className="bg-[#5b21b6] text-center py-2.5 text-white font-bold rounded-xl">
+                            <Link href='/auth/register' onClick={() => setManu(false)} className="bg-[#5b21b6] text-center py-2.5 text-white font-bold rounded-xl">
                                 Get Started Free
                             </Link>
                         </div>
