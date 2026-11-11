@@ -60,7 +60,7 @@ const Premium = () => {
                         <h3 className="text-white font-bold">589</h3>
                     </div>
                     <div dir="rtl" className="w-full h-1.5 rounded-full overflow-hidden">
-                        <div className="bg-blue-500 h-full w-[0%] rounded-full"></div>
+                        <div className="bg-blue-500 h-full w-[50%] rounded-full"></div>
                     </div>
                 </div>
 
