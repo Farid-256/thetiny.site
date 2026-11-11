@@ -91,10 +91,10 @@ const Footer = () => {
                 <p>© 2026 <Link href='https://banglapuzzle.com/' target="_blank" className="text-blue-700 font-semibold">Bangla Puzzle Limited</Link>. All rights reserved.</p>
                 
                 <div className="flex items-center gap-6">
-                    <Link href="#" className="hover:text-gray-700 transition">Privacy Policy</Link>
-                    <Link href="#" className="hover:text-gray-700 transition">Refund Policy</Link>
-                    <Link href="#" className="hover:text-gray-700 transition">Cookie Policy</Link>
-                    <Link href="#" className="hover:text-gray-700 transition">Terms & Conditions</Link>
+                    <Link href="/privatePolicy" className="hover:text-gray-700 transition">Privacy Policy</Link>
+                    <Link href="/refundPolicy" className="hover:text-gray-700 transition">Refund Policy</Link>
+                    <Link href="/cookiePolicy" className="hover:text-gray-700 transition">Cookie Policy</Link>
+                    <Link href="/terms" className="hover:text-gray-700 transition">Terms & Conditions</Link>
                 </div>
             </div>
         </footer>

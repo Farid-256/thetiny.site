@@ -26,10 +26,10 @@ const TermsAndConditions = () => {
                 <div className="flex flex-col gap-3">
                     <h2 className="text-xl md:text-2xl font-bold text-gray-900">Cookies</h2>
                     <p className="text-gray-600 leading-relaxed text-sm md:text-base">
-                        We employ the use of cookies. By accessing Its-slbd.com, you agreed to use cookies in agreement with the ITS's Privacy Policy.
+                        We employ the use of cookies. By accessing Its-slbd.com, you agreed to use cookies in agreement with the ITSs Privacy Policy.
                     </p>
                     <p className="text-gray-600 leading-relaxed text-sm md:text-base">
-                        Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
+                        Most interactive websites use cookies to let us retrieve the users details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
                     </p>
                 </div>
 
