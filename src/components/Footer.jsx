@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaYoutube, FaWhatsapp } from "react-icons/fa6";
@@ -22,16 +23,19 @@ const Footer = () => {
 
                     {/* Social Media Icons */}
                     <div className="flex items-center gap-3">
-                        <a href="#" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
+                        <a href="https://www.facebook.com/md.farid.iqubal" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
                             <FaFacebookF className="text-sm" />
                         </a>
-                        <a href="#" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
+
+                        <a href="https://www.linkedin.com/in/mdfaridiqubal/" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
                             <FaLinkedinIn className="text-sm" />
                         </a>
-                        <a href="#" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
+
+                        <a href="https://www.youtube.com/" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
                             <FaYoutube className="text-sm" />
                         </a>
-                        <a href="#" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
+
+                        <a href="https://www.whatsapp.com/" target="_blank" className="w-9 h-9 rounded-full bg-gray-100 hover:bg-purple-100 hover:text-[#5b21b6] flex items-center justify-center transition text-gray-700">
                             <FaWhatsapp className="text-sm" />
                         </a>
                     </div>
@@ -52,22 +56,32 @@ const Footer = () => {
                 {/* Column 2: Product Links */}
                 <div className="md:col-span-3 flex flex-col gap-3">
                     <h4 className="text-xs font-bold text-gray-900 uppercase tracking-widest mb-2">Product</h4>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">Features</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">Pricing</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">API Docs</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">Browser Extension</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">Report Malicious URL</Link>
+                    <Link href="/features" className="text-sm text-gray-500">Features</Link>
+
+                    <Link href="/pricing" className="text-sm text-gray-500">Pricing</Link>
+
+                    <Link href="#" className="text-sm text-gray-500 ">API Docs</Link>
+
+                    <Link href="#" className="text-sm text-gray-500">Browser Extension</Link>
+
+                    <Link href="/reportURL" className="text-sm text-gray-500">Report Malicious URL</Link>
                 </div>
 
                 {/* Column 3: Company Links */}
                 <div className="md:col-span-3 flex flex-col gap-3">
                     <h4 className="text-xs font-bold text-gray-900 uppercase tracking-widest mb-2">Company</h4>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">About Us</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-[#5b21b6] transition">Blog</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-gray-900 transition">Terms & Conditions</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-gray-900 transition">Privacy Policy</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-gray-900 transition">Cookie Policy</Link>
-                    <Link href="#" className="text-sm text-gray-500 hover:text-gray-900 transition">Refund Policy</Link>
+
+                    <Link href="/about" className="text-sm text-gray-500 ">About Us</Link>
+
+                    <Link href="/blog" className="text-sm text-gray-500 ">Blog</Link>
+
+                    <Link href="/terms" className="text-sm text-gray-500">Terms & Conditions</Link>
+
+                    <Link href="/privatePolicy" className="text-sm text-gray-500">Privacy Policy</Link>
+
+                    <Link href="/cookiePolicy" className="text-sm text-gray-500">Cookie Policy</Link>
+
+                    <Link href="/refundPolicy" className="text-sm text-gray-500">Refund Policy</Link>
                 </div>
 
             </div>
